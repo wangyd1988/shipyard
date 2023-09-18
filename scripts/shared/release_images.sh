@@ -4,8 +4,10 @@ set -e
 source "${SCRIPTS_DIR}/lib/utils"
 
 [[ $# -gt 0 ]] || exit_error "At least one image to release must be specified!"
+REPO=quay.io/zhugejingcheng
 
-print_env REPO TAG
+TESTWYD=testwyd
+print_env REPO TAG TESTWYD
 source "${SCRIPTS_DIR}/lib/debug_functions"
 
 function release_image() {

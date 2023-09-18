@@ -4,12 +4,12 @@
 # The resulting image name will be `<abc>`.
 
 SHELL := /bin/bash
-REPO ?= quay.io/zhugejingcheng
+REPO=quay.io/zhugejingcheng
 
 
 ### Tunable variables for affecting make commands ###
 # Affecting multiple commands
-export REPO ?= quay.io/zhugejingcheng
+export REPO=quay.io/zhugejingcheng
 
 
 # Specific to `build_images.sh`
