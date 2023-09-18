@@ -6,6 +6,10 @@ source "${SCRIPTS_DIR}/lib/utils"
 [[ $# == 3 ]] || exit_error 'You must specify exactly 3 arguments: The image name, the Dockerfile and a hash file to write to'
 [[ "${PLATFORM}" =~ , && -z "${OCIFILE}" ]] && exit_error 'Multi-arch builds require OCI output, please set OCIFILE'
 
+
+REPO=quay.io/zhugejingcheng
+
+
 print_env OCIFILE PLATFORM REPO
 source "${SCRIPTS_DIR}/lib/debug_functions"
 
