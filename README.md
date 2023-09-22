@@ -2,8 +2,8 @@
 
 <!-- markdownlint-disable line-length -->
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4865/badge)](https://bestpractices.coreinfrastructure.org/projects/4865)
-[![Release Images](https://github.com/submariner-io/shipyard/workflows/Release%20Images/badge.svg)](https://github.com/submariner-io/shipyard/actions?query=workflow%3A%22Release+Images%22)
-[![Periodic](https://github.com/submariner-io/shipyard/workflows/Periodic/badge.svg)](https://github.com/submariner-io/shipyard/actions?query=workflow%3APeriodic)
+[![Release Images](https://github.com/wangyd1988/shipyard/workflows/Release%20Images/badge.svg)](https://github.com/wangyd1988/shipyard/actions?query=workflow%3A%22Release+Images%22)
+[![Periodic](https://github.com/wangyd1988/shipyard/workflows/Periodic/badge.svg)](https://github.com/wangyd1988/shipyard/actions?query=workflow%3APeriodic)
 <!-- markdownlint-enable line-length -->
 
 The Shipyard project provides tooling for creating K8s clusters with [kind] and provides a Go framework for creating E2E tests.
@@ -67,7 +67,7 @@ else
 
 Makefile.dapper:
         @echo Downloading $@
-        @curl -sfLO https://raw.githubusercontent.com/submariner-io/shipyard/$(BASE_BRANCH)/$@
+        @curl -sfLO https://raw.githubusercontent.com/wangyd1988/shipyard/$(BASE_BRANCH)/$@
 
 include Makefile.dapper
 
@@ -87,5 +87,5 @@ Get the latest version from the [Releases] page.
 [go 1.12]: https://blog.golang.org/go1.12
 [docker]: https://docs.docker.com/install/
 [$GOPATH configured]: https://github.com/golang/go/wiki/SettingGOPATH
-[Releases]: https://github.com/submariner-io/shipyard/releases/
+[Releases]: https://github.com/wangyd1988/shipyard/releases/
 [kind]: https://github.com/kubernetes-sigs/kind

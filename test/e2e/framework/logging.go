@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/onsi/ginkgo/v2"
-	"github.com/submariner-io/shipyard/test/e2e/framework/ginkgowrapper"
+	"github.com/wangyd1988/shipyard/test/e2e/framework/ginkgowrapper"
 )
 
 func nowStamp() string {

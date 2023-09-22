@@ -21,8 +21,8 @@ package dataplane
 
 import (
 	. "github.com/onsi/ginkgo/v2"
-	"github.com/submariner-io/shipyard/test/e2e/framework"
-	"github.com/submariner-io/shipyard/test/e2e/tcp"
+	"github.com/wangyd1988/shipyard/test/e2e/framework"
+	"github.com/wangyd1988/shipyard/test/e2e/tcp"
 )
 
 var _ = Describe("[dataplane] Basic TCP connectivity test", func() {

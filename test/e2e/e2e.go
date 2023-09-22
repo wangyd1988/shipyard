@@ -24,7 +24,7 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
-	"github.com/submariner-io/shipyard/test/e2e/framework"
+	"github.com/wangyd1988/shipyard/test/e2e/framework"
 	"k8s.io/client-go/rest"
 	"k8s.io/klog/v2"
 )

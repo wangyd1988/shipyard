@@ -20,9 +20,9 @@ package e2e_test
 import (
 	"testing"
 
-	"github.com/submariner-io/shipyard/test/e2e"
-	_ "github.com/submariner-io/shipyard/test/e2e/dataplane"
-	_ "github.com/submariner-io/shipyard/test/e2e/example"
+	"github.com/wangyd1988/shipyard/test/e2e"
+	_ "github.com/wangyd1988/shipyard/test/e2e/dataplane"
+	_ "github.com/wangyd1988/shipyard/test/e2e/example"
 )
 
 func TestE2E(t *testing.T) {
